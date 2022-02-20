@@ -53,7 +53,7 @@ const calculator = (expression) => {
   
   if ((matches[1] < 1 || matches[1] > 10) ||
       (matches[3] < 1 || matches[3] > 10)) {
-    console.error('Great expression')
+    console.error('Big expression')
   }
   
   const operand1 = +matches[1];
